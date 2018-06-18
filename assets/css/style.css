@@ -18,6 +18,18 @@
     background-color: #c13416;
 }
 
+.footer-background-color{
+    background-color:#c13416;
+}
+
+.footer-color-social{
+    color:#ffffff;
+}
+
+.footer-color-about{
+    color:#ffffff;
+}
+
 
 body, html {
     height: 100%;
@@ -31,7 +43,6 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     margin-top:80px;
-    margin-bottom:80px;
 }
 
 
