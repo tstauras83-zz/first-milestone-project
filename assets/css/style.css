@@ -2,6 +2,11 @@
 
 /*==============================Colors*/
 
+.contact-us-background-color{
+    background-color: #fff53d;
+    margin-top: 79px;
+}
+
 .ui-menu-color-home {
     background-color: #c13416;
 }
@@ -30,6 +35,7 @@
     color:#ffffff;
 }
 
+/*==============================background images*/
 
 body, html {
     height: 100%;
@@ -38,6 +44,24 @@ body, html {
 
 .index-background-image{
     background-image: url("../images/index-image.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:80px;
+}
+
+.history-background-image{
+    background-image: url("../images/history-image.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:80px;
+}
+
+.examples-background-image{
+    background-image: url("../images/examples-image.jpg");
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
