@@ -35,6 +35,11 @@
     color:#ffffff;
 }
 
+.index-text-color{
+    color: #ffffff;
+    background-color: #000000;
+}
+
 /*==============================background images*/
 
 body, html {
@@ -48,7 +53,6 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top:80px;
 }
 
 .history-background-image{
@@ -57,7 +61,6 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top:80px;
 }
 
 .examples-background-image{
@@ -66,8 +69,9 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top:80px;
 }
+
+
 
 
 /*==============================special paddings, margins, text*/
@@ -82,6 +86,14 @@ h4{
 
 .uppercase{
     text-transform: uppercase;
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -100,7 +112,7 @@ header{
 
 #nav{
     margin: 0;
-    position: fixed;
+    position: relative;
     width:100%;
     top:0;
 }
@@ -147,3 +159,82 @@ header{
     background: rgba(0,0,0,0.2);
     height: 80px;
 }
+
+
+/*==============================video container*/
+
+.video-container{
+    margin: 100px 200px 100px 200px ;
+}
+
+.video-container-color{
+    background-color: rgba(0, 0, 128, 0.8);
+}
+
+.video-container-index{
+    margin: 100px 10px 100px 10px;
+}
+
+
+.video-container-main {
+    height: 100vh;
+    background: url(../images/video-background-image.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-container-main .row {
+    height: auto;
+    width: 100%;
+}
+
+.video-wrapper {
+    padding: 30px;
+    background: black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 100px #fff;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000; /* Fallback */
+    background-color: rgba(0, 0, 0, .85);
+}
+
+.opaque-overlay-video {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #000; /* Fallback */
+    background-color: rgba(255, 0, 255, 0.15);
+}
+
+/*==============================misc*/
+
+.jumbotron{
+    color:#ffffff;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+
+/*==============================footer*/
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    min-height: 50px;
+}
+
+
