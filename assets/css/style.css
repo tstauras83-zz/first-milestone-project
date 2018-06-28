@@ -2,10 +2,10 @@
 
 /*==============================Colors*/
 
-.contact-us-background-color{
-    background-color: #fff53d;
-    margin-top: 79px;
+.contact-us-color{
+    color: #ffffff;
 }
+
 
 .ui-menu-color-home {
     background-color: #c13416;
@@ -38,6 +38,14 @@
 .index-text-color{
     color: #ffffff;
     background-color: #000000;
+}
+
+.index-text-colors{
+    color: #ffffff;
+}
+
+.history-text-colors{
+    color: #ffffff;
 }
 
 /*==============================background images*/
@@ -96,8 +104,11 @@ h4{
     height: 100%;
 }
 
-
-
+.column-history{
+  float: left;
+  width: 25%;
+  padding: 105px 5px 5px 105px;
+}
 
 /*==============================Header*/
 
@@ -231,10 +242,14 @@ header{
 /*==============================footer*/
 
 footer {
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
     min-height: 50px;
 }
 
+.index-fixed-footer{
+    position:fixed;
+    bottom:0;
+}
 
