@@ -6,6 +6,10 @@
     color: #ffffff;
 }
 
+.examples-text-colors{
+    color:#ffffff;
+}
+
 
 .ui-menu-color-home {
     background-color: #c13416;
@@ -63,13 +67,7 @@ body, html {
     background-size: cover;
 }
 
-.history-background-image{
-    background-image: url("../images/history-image.jpg");
-    height: 100%; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 
 .examples-background-image{
     background-image: url("../images/examples-image.jpg");
@@ -107,7 +105,7 @@ h4{
 .column-history{
   float: left;
   width: 25%;
-  padding: 105px 5px 5px 105px;
+  padding: 5px 5px 5px 5px;
 }
 
 /*==============================Header*/
@@ -247,9 +245,14 @@ footer {
     width: 100%;
     min-height: 50px;
 }
-
+    
 .index-fixed-footer{
     position:fixed;
     bottom:0;
 }
+    
+.social-linkz{
+    text-align:right;
+}
+    
 
