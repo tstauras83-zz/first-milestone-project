@@ -52,6 +52,13 @@
     color: #ffffff;
 }
 
+.examples-background-colors{
+    background-color:#000000;
+}
+
+.examples-text-color{
+    color:#ffffff;
+}
 /*==============================background images*/
 
 /*body, html {
@@ -109,6 +116,26 @@ h4{
 
 .form-padding{
     padding:15px;
+}
+
+.examples-padding{
+    padding: 50px;
+}
+
+.exaples-padding-bottom{
+    padding:0px 0px 50px 50px;
+}
+
+.exaples-padding-left{
+    padding:0px 0px 0px 50px;
+}
+
+.examples-padding-all{
+    padding: 50px;
+}
+
+.index-padding-all{
+    padding:0px 0px 1000px 0px ;
 }
 
 /*==============================Header*/
@@ -224,4 +251,11 @@ footer {
 .index-fixed-footer{
     position: fixed;
     bottom:0;
+}
+
+/*==============================footer*/
+@media (max-width: 767px) {
+    .index-padding-all {
+        padding:0px;
+    }
 }
