@@ -135,7 +135,19 @@ h4{
 }
 
 .index-padding-all{
-    padding:0px 0px 1000px 0px ;
+    padding:0px 0px 30% 0px ;
+}
+
+.history-padding-page{
+    padding:0px 0px 20% 0px;    
+}
+
+.contact-padding-page{
+    padding:0px 0px 15% 0px;    
+}
+
+.examples-padding-page{
+    padding:0px 0px 9% 0px;    
 }
 
 /*==============================Header*/
