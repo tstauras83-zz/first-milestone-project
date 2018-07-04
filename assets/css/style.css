@@ -123,11 +123,11 @@ h4{
 }
 
 .exaples-padding-bottom{
-    padding:0px 0px 50px 50px;
+    padding:0px 0px 50px 0px;
 }
 
 .exaples-padding-left{
-    padding:0px 0px 0px 50px;
+    padding:0px 0px 0px 0px;
 }
 
 .examples-padding-all{
@@ -269,5 +269,15 @@ footer {
 @media (max-width: 767px) {
     .index-padding-all {
         padding:0px;
+    }
+}
+
+@media (min-width: 767px) {
+    .exaples-padding-left{
+        padding-left:50px;
+    }
+    
+    .exaples-padding-bottom{
+    padding:0px 0px 50px 50px;
     }
 }
