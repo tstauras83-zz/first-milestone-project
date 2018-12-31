@@ -6,65 +6,18 @@
     color: #ffffff;
 }
 
-.examples-text-colors{
+.text-colors{
     color:#ffffff;
 }
 
 
-.ui-menu-color-home {
-    background-color: #c13416;
+
+.personal-background-color{
+    background-color:#ff8000;
 }
 
-.ui-menu-color-history{
-    background-color: #c13416;
-}
-
-.ui-menu-color-contact-us{
-    background-color: #c13416;
-}
-
-.ui-menu-color-examples{
-    background-color: #c13416;
-}
-
-.footer-background-color{
-    background-color:#c13416;
-}
-
-.footer-color-social{
-    color:#ffffff;
-}
-
-.footer-color-about{
-    color:#ffffff;
-}
-
-.index-text-color{
-    color: #ffffff;
-    background-color: #000000;
-}
-
-.index-text-colors{
-    color: #ffffff;
-}
-
-.history-text-colors{
-    color: #ffffff;
-}
-
-.examples-background-colors{
-    background-color:#000000;
-}
-
-.examples-text-color{
-    color:#ffffff;
-}
 /*==============================background images*/
 
-/*body, html {
-    height: 100vh;
-    margin: 0;
-}*/
 
 .index-background-image{
     background-image: url("../images/index-image.jpg");
@@ -73,19 +26,6 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
-
-
-
-.examples-background-image{
-    background-image: url("../images/examples-image.jpg");
-    height: 100%; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-
 
 
 /*==============================special paddings, margins, text*/
@@ -103,88 +43,50 @@ h4{
 }
 
 .layer {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: #1f2030;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
 }
 
-.column-history{
-  padding: 5px 5px 5px 5px;
-}
 
 .form-padding{
     padding:15px;
 }
 
+
 .examples-padding{
     padding: 50px;
 }
 
-.exaples-padding-bottom{
-    padding:0px 0px 50px 0px;
-}
-
-.exaples-padding-left{
-    padding:0px 0px 0px 0px;
-}
-
-.examples-padding-all{
-    padding: 50px;
-}
 
 .index-padding-all{
     padding:0px 0px 30% 0px ;
 }
 
-.history-padding-page{
-    padding:0px 0px 20% 0px;    
-}
+
 
 .contact-padding-page{
     padding:0px 0px 15% 0px;    
 }
 
-.examples-padding-page{
-    padding:0px 0px 9% 0px;    
-}
 
-.history-text-padding{
-    padding:15px;
+
+.images-boarder-padding{
+    border:10px solid red;
 }
 
 /*==============================Header*/
 
-header{
-    margin: 0;
-}
 
-
-.heading{
-    margin-left: 50px;
-}
-
-#nav{
-    margin: 0;
-    position: relative;
-    width:100%;
-    top:0;
-}
-
-#nav li{
-    padding: 0;
-}
 
 .menuitem{
-    height:80px;
-    text-align: center;
-    padding:0;
     
 }
 
 .menuitem a{
-    width: 100%;
+    width: 90px;
     text-decoration: none;
     color: #ffffff;
     height: 80px;
@@ -216,35 +118,7 @@ header{
 }
 
 
-/*==============================video container*/
 
-.video-container{
-    margin: 100px 200px 100px 200px ;
-}
-
-.video-container-index{
-    margin: 100px 10px 100px 10px;
-}
-
-
-.video-container-main {
-    height: 100%;
-    width:100%;
-    background: url(../images/video-background-image.jpg) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-    display: block;
-    align-items: center;
-    justify-content: center;
-}
-
-.video-container-main .row {
-    height: auto;
-    width: 100%;
-}
 
 /*==============================jumbotron*/
 
@@ -264,12 +138,8 @@ footer {
     max-height: 300px;
 }
     
-.index-fixed-footer{
-    position: fixed;
-    bottom:0;
-}
 
-/*==============================footer*/
+
 @media (max-width: 767px) {
     .index-padding-all {
         padding:0px;
@@ -284,4 +154,19 @@ footer {
     .exaples-padding-bottom{
     padding:0px 0px 50px 50px;
     }
+}
+
+
+/*==============================HISTORY PAGE*/
+
+.history-text-padding{
+    padding:15px;
+}
+
+.column-history{
+  padding: 5px 5px 5px 5px;
+}
+
+.text-colors{
+    color: #ffffff;
 }
