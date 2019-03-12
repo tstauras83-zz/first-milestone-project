@@ -6,14 +6,13 @@
     color: #ffffff;
 }
 
-.text-colors{
-    color:#ffffff;
-}
-
-
 
 .personal-background-color{
-    background-color:#ff8000;
+    background-color:#AC1111;
+}
+
+.bg-red{
+    background-color:#AC1111;
 }
 
 /*==============================background images*/
@@ -43,7 +42,7 @@ h4{
 }
 
 .layer {
-    background-color: #1f2030;
+    background-color: #990707;
     top: 0;
     left: 0;
     width: 100%;
@@ -60,6 +59,9 @@ h4{
     padding: 50px;
 }
 
+.examples-padding-images{
+    padding:0px 0px 10px 25px; 
+}
 
 .index-padding-all{
     padding:0px 0px 30% 0px ;
@@ -74,7 +76,7 @@ h4{
 
 
 .images-boarder-padding{
-    border:10px solid red;
+    border:5px solid black;
 }
 
 /*==============================Header*/
